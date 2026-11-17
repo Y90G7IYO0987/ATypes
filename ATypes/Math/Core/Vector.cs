@@ -20,5 +20,15 @@
         {
             return new Vector(v1._x - v2._x, v1._y - v2._y);
         }
+
+        public static Vector operator *(Vector vector, Int32 scalar)
+        {
+            return new Vector(vector._x * scalar, vector._y * scalar);
+        }
+
+        public static Vector operator /(Vector vector, Int32 scalar)
+        {
+            return new Vector(vector._x / scalar, vector._y / scalar);
+        }
     }
 }
