@@ -1,2 +1,3 @@
-# ATypes
-Библиотека типов компании ACommunity.
+## ATypes
+
+The type library of the ACommunity company.
