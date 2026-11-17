@@ -1,6 +1,6 @@
 ﻿namespace ATypes.Math.Core
 {
-    public class Vector
+    public struct Vector
     {
         private readonly double _x;
         private readonly double _y;
