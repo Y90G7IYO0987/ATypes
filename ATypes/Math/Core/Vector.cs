@@ -5,6 +5,11 @@
         private readonly double _x;
         private readonly double _y;
 
+        public double Length
+        {
+            get { return Calculus.Sqrt(_x * _x + _y * _y, 2); }
+        }
+
         public Vector(double x, double y)
         {
             _x = x;
